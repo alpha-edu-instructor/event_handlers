@@ -1,0 +1,70 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, img, em, strong,
+ol, ul, li,
+form, input, textarea,
+button, label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: #cdcdcd;
+}
+
+button {
+  width: 64px;
+  height: 64px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+#dec {
+  background: red;
+}
+
+#inc {
+  background: greenyellow;
+}
+
+
+
+#count {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
